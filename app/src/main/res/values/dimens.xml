@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="height1">-1.0px</dimen>
+    <dimen name="height">250dp</dimen>
+</resources>

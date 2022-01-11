@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AplikasiGithubUser</string>
+    <!-- Other string resources-->
+    <string name="app_list_fav">Pengguna Favorit</string>
+    <string name="dummy">Dummy</string>
+    <string name="repositori">Repositori</string>
+    <string name="follower">Pengikut</string>
+    <string name="following">Diikuti</string>
+    <string name="cari_user">Cari user</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="username_github">username github</string>
+    <string name="gambar">gambar</string>
+    <string name="company">perusahaan</string>
+    <string name="lokasi">lokasi</string>
+    <string name="datacannotfound">Data tidak ditemukan !</string>
+    <string name="warninglogo">warningLogo</string>
+    <string name="zero">0</string>
+    <string name="title_setting">pengaturan</string>
+    <string name="txt_dark_mode">Mode gelap</string>
+    <string name="btn_delete">Hapus Dari Favorit</string>
+    <string name="logo_splash">logo splash screen</string>
+    <string name="fab_desc">Button for add user</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
+

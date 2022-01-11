@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FollowerFavFragment">
+
+    <ProgressBar
+        android:id="@+id/pbFollowers"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFollowers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/user"/>
+    <ImageView
+        android:id="@+id/ivCannotFound"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/notfoundimg"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:contentDescription="@string/datacannotfound"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_marginTop="75dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserratregular"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="@string/datacannotfound" />
+</FrameLayout>
